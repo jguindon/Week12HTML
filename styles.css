@@ -1,0 +1,36 @@
+html{
+    background-color:black;
+overflow: scroll;
+}
+
+
+div.menu{
+ 
+    text-align: center;   
+    background-color: goldenrod;
+    
+}
+
+div.big-box{
+background-color:blue;
+position:fixed;
+top: 150px;
+left: 80px;
+border: solid blue;
+width: 600px;
+height: 450px;
+
+
+}
+div.small-box{
+background-color: red;
+border: solid red;
+width: 400px;
+position: fixed;
+height: 300px;
+z-index: 1;
+color:white;
+left: 200px;
+top: 200px;
+
+}
